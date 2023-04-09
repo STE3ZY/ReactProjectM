@@ -8,8 +8,7 @@
 .home,
 .toSee,
 .tours,
-.hotels,
-.sign-up {
+.hotels {
   display: flex;
   height: 91.6vh;
   align-items: center;

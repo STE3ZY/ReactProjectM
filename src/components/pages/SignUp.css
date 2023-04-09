@@ -7,7 +7,7 @@
   background-image: url(/public/images/img-9.jpg);
 }
 
-form {
+.sign-up-form {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -19,6 +19,7 @@ form {
 }
 
 label {
+  font-weight: 100;
   color: #242424;
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
