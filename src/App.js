@@ -7,6 +7,7 @@ import ToSee from "./components/pages/ToSee";
 import Tours from "./components/pages/Tours";
 import Hotels from "./components/pages/Hotels";
 import SignUp from "./components/pages/SignUp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/hotels" element={<Hotels />} />
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

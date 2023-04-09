@@ -12,13 +12,13 @@ function Cards() {
             <CardItem
               src="images/img-4.jpg"
               text="Get some thrills during your time in Greece with a rock climbing experience at Meteora"
-              label="Adrenaline"
+              label="Climbing"
               path="/ToSee"
             />
             <CardItem
               src="images/img-5.png"
-              text="Explore the hidden paths between the rocks with your enduro bike"
-              label="Adrenaline"
+              text="Explore the hidden paths between the rocks with your bike"
+              label="Enduro"
               path="/ToSee"
             />
           </ul>

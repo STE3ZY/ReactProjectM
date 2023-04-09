@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../App.css";
+// import "../../App.css";
 import "./SignUp.css";
 
 export default function SignUp() {
@@ -23,7 +23,7 @@ export default function SignUp() {
 
   return (
     <div className="sign-up">
-      <form onSubmit={handleSubmit}>
+      <form className="sign-up-form" onSubmit={handleSubmit}>
         <label htmlFor="email">Email:</label>
         <input
           type="email"
