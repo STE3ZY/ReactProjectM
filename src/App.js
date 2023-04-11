@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ReactProjectM" element={<Home />} />
         <Route path="/toSee" element={<ToSee />} />
         <Route path="/tours" element={<Tours />} />
         <Route path="/hotels" element={<Hotels />} />
