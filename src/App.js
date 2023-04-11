@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/ReactProjectM">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
