@@ -28,11 +28,7 @@ function Navbar() {
     <div>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link
-            to="/ReactProjectM"
-            className="navbar-logo"
-            onClick={closeMobileMenu}
-          >
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             DSCVR
             <img className="nav-logo-img" src="/images/dscvr-logo.png" />
           </Link>
@@ -41,11 +37,7 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link
-                to="/ReactProjectM"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
