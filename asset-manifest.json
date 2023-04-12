@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactProjectM/static/css/main.e09b8c32.css",
-    "main.js": "/ReactProjectM/static/js/main.e9acb13d.js",
+    "main.css": "/ReactProjectM/static/css/main.88ff65ea.css",
+    "main.js": "/ReactProjectM/static/js/main.8a2ff65e.js",
     "static/media/img-6.jpg": "/ReactProjectM/static/media/img-6.349cd79106f1039ec41a.jpg",
     "static/media/img-7.jpg": "/ReactProjectM/static/media/img-7.faf9103253bd1dcf9209.jpg",
     "static/media/img-9.jpg": "/ReactProjectM/static/media/img-9.59750a5ef7e7aa6b9850.jpg",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.ttf": "/ReactProjectM/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/ReactProjectM/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/ReactProjectM/index.html",
-    "main.e09b8c32.css.map": "/ReactProjectM/static/css/main.e09b8c32.css.map",
-    "main.e9acb13d.js.map": "/ReactProjectM/static/js/main.e9acb13d.js.map"
+    "main.88ff65ea.css.map": "/ReactProjectM/static/css/main.88ff65ea.css.map",
+    "main.8a2ff65e.js.map": "/ReactProjectM/static/js/main.8a2ff65e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e09b8c32.css",
-    "static/js/main.e9acb13d.js"
+    "static/css/main.88ff65ea.css",
+    "static/js/main.8a2ff65e.js"
   ]
 }
