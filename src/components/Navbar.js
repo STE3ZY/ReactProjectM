@@ -30,7 +30,10 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             DSCVR
-            <img className="nav-logo-img" src="/images/dscvr-logo.png" />
+            <img
+              className="nav-logo-img"
+              src={process.env.PUBLIC_URL + "/images/dscvr-logo.png"}
+            />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

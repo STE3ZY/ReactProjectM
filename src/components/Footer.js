@@ -62,7 +62,10 @@ function Footer() {
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               DSCVR
-              <img className="nav-logo-img" src="/images/dscvr-logo.png" />
+              <img
+                className="nav-logo-img"
+                src={process.env.PUBLIC_URL + "/images/dscvr-logo.png"}
+              />
             </Link>
           </div>
           <small class="website-rights">DSCVR © 2023</small>
