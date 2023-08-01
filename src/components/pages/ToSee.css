@@ -1,0 +1,17 @@
+ul {
+  color: #fff;
+  display: flex;
+}
+.tosee-item {
+  margin: 30px;
+}
+.tosee--list {
+  display: flex;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .tosee--list {
+    flex-direction: column;
+  }
+}

@@ -1,15 +1,17 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "@fortawesome/fontawesome-free/css/all.min.css";
 import Home from "./components/pages/Home";
 import ToSee from "./components/pages/ToSee";
 import Tours from "./components/pages/Tours";
 import Hotels from "./components/pages/Hotels";
 import SignUp from "./components/pages/SignUp";
 import Footer from "./components/Footer";
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -21,7 +23,7 @@ function ScrollToTop() {
   return null;
 }
 
-function App() {
+function App(): JSX.Element {
   return (
     <Router basename="/ReactProjectM">
       <Navbar />

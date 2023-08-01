@@ -2,7 +2,7 @@ import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
 
-function Cards() {
+function Cards(): JSX.Element {
   return (
     <div className="cards">
       <h1>Check out these EPIC Activities!</h1>
