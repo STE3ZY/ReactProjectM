@@ -3,7 +3,7 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar(): JSX.Element {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -22,7 +22,12 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener("resize", showButton);
+  useEffect(() => {
+    window.addEventListener("resize", showButton);
+    return () => {
+      window.removeEventListener("resize", showButton);
+    };
+  }, []);
 
   return (
     <>
@@ -33,6 +38,7 @@ function Navbar() {
             <img
               className="nav-logo-img"
               src={process.env.PUBLIC_URL + "/images/dscvr-logo.png"}
+              alt="DSCVR logo"
             />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -63,7 +69,6 @@ function Navbar() {
                 Hotels
               </Link>
             </li>
-
             <li>
               <Link
                 to="/sign-up"

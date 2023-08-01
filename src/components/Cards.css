@@ -116,3 +116,12 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+@media only screen and (max-width: 822px) {
+  .cards__items {
+    display: block;
+  }
+  .cards {
+    padding: 5px;
+  }
+}
